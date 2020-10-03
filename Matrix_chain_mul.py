@@ -3,7 +3,12 @@
 import sys
 import re
 class matrix:
-    
+    '''
+    Class to store matrix data with following functions:
+    shape : return shape of matrix as tuple
+    __str__ : for print function
+    __mul__ : overloading multiplication operator
+    '''
     def __init__(self, mat):
         self.matrix = mat
         self.n = len(mat)
@@ -32,6 +37,13 @@ class matrix:
         return matrix(result)
 
 class MCM:
+    '''
+    MCM class with following functions
+    mcm_order : to caculate the order in which matrices should be multiplied so that minimum multiplication operation occurs
+    mcm : to generate m and s matrix 
+    get_order : return order
+    min_cost : return minimum cost of matrix multiplication
+    '''
     def __init__(self, p, no=65):
         self.no = no
         self.mm, self.sm = self.mcm(p) #s matrix and m matrix
@@ -74,6 +86,7 @@ class MCM:
         return self.order
 
 def output(matrices, order):
+    # yet to complete
     return 0
 
 if __name__=='__main__':
