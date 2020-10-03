@@ -98,7 +98,7 @@ if __name__=='__main__':
     n = int(input())
     matrices = {}
     p = []
-    alph = ['A','B','C','D','E','F']
+    alph = ['A','B','C','D','E','F','G','H','I','J','K']
     for _ in range(n):
         inp = []
         while True:
