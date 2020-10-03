@@ -87,6 +87,10 @@ class MCM:
 
 def output(matrices, order):
     # yet to complete
+    '''
+    input = matrices ex-{'A': matrix  . . ..} , order string ex- (A((BC)D))
+    output = result martix after multiplication
+    '''
     return 0
 
 if __name__=='__main__':
