@@ -1,9 +1,6 @@
 # DAA
 implementation of various algorithm's
 
-# stack operations
-<img src="output/stack.png">
-
 # Merge Sort
 <img src="output/merge_sort.png">
 
@@ -12,3 +9,9 @@ implementation of various algorithm's
 
 # Matrix chain multiplication
 <img src="output/mcm1.png">
+
+# 0 1 Knapsack Problem
+<img src="output/01_knapsack.png">
+
+# stack operations
+<img src="output/stack.png">
