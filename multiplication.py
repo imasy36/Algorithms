@@ -21,7 +21,7 @@ def karatsuba(x, y):
 	if len(str(x))<5 and len(str(y))<5:
 		return x*y
 
-	n = int(max(math.log(x,10), math.log(y,10)))//2
+	n = int(max(math.log(x,10)+1, math.log(y,10)+1))//2
 	a=x//10**n
 	b=x%10**n
 	c=y//10**n
